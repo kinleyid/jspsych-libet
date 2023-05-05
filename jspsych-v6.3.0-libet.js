@@ -528,11 +528,11 @@ jsPsych.plugins['libet'] = (function() {
                 persist: true,
                 allow_held_key: true,
                 callback_function: function(info) {
-                  if (info.key == 37) {
+                  if (info.key == 'arrowleft') {
                     rotate_clock('left');
-                  } else if (info.key == 39) {
+                  } else if (info.key == 'arrowright') {
                     rotate_clock('right');
-                  } else if (info.key == 13) {
+                  } else if (info.key == 'enter') {
                     // record estimated theta
                     trial_data.est_end_ms = performance.now();
                     trial_data.theta_est = clock.theta;
