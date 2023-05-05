@@ -1,6 +1,8 @@
 # UPDATE, NOV 2021
 The new and improved version of this plugin, which is compatible with jsPsych 7.0, can be found at https://github.com/jspsych/jspsych-contrib/tree/main/packages/plugin-libet-intentional-binding. I'll leave this version here for now, but the documentation for the new version is much more complete.
 
+**Note, May 2023**: Two versions of the plugin are now available for compatibility with legacy jsPsych versions 6.1.0 and 6.3.0.
+
 # jspsych-libet
 A jsPsych plugin for measuring intentional binding using a Libet clock.
 
